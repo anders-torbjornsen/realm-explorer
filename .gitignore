@@ -3,3 +3,6 @@
 Binaries/
 Intermediate/
 Saved/
+
+# built data for levels
+*_BuiltData.uasset

@@ -5,10 +5,10 @@ using System.Collections.Generic;
 
 public class RealmExplorerTarget : TargetRules
 {
-	public RealmExplorerTarget( TargetInfo Target) : base(Target)
+	public RealmExplorerTarget(TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.AddRange( new string[] { "RealmExplorer" } );
+		ExtraModuleNames.Add("RealmExplorer");
 	}
 }
